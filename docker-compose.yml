@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    image: tleubek-ersin-devops
+    container_name: tleubek-ersin-container
+    environment:
+      - STUDENT_NAME=Ersin
+      - STUDENT_SURNAME=Tleubek
+      - STUDENT_GROUP=IT2-2308
+      - STUDENT_ID=37588
